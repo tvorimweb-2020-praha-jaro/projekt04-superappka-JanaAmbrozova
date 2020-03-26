@@ -28,18 +28,22 @@ body {
     background: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);   
 }
+ul {
+    padding: 0;
+    margin: 0;
+}
 .menu li {
     display: inline-block;
     font-size: 1rem;
-    padding: 15px 30px 0px 15px;
-    cursor: pointer;
+    padding: 15px 0px 15px 50px;
+    cursor: pointer; 
 }
 .menu li:hover,
 .menu li:active,
 .menu li:focus {
 	font-weight: 700;
     color: white;
-    background-color: #25133d ;
+    background-color: #25133d;
 }
 .Appka {
     text-transform: uppercase;
@@ -50,7 +54,7 @@ body {
     padding: 30px 0px 0px 50px;
     color: white; 
     height: 450px;  
-    background-image: linear-gradient(#25133d,#48418e);
+    background-image: url(images/pozadi.jpg);
 }
 .nazev {
     margin: 0;
@@ -81,7 +85,7 @@ body {
 .odkazy a:focus {
 	font-weight: 700;
     color: white;
-    background-color: #25133d ;
+    background-color: #25133d;
 }
 .tlacitkozdarma {
     background-color:#25133d;
@@ -90,6 +94,7 @@ body {
     background-color: #48418e;
 }
 .telefon {
+    display: block;
     position: absolute; 
     right: 0;
     bottom: -7px;
@@ -99,6 +104,7 @@ body {
     padding: 30px;
     text-align: center;
     color:#25133d;
+   
 }
 h2 {
     font-size: 1.1rem;
@@ -116,25 +122,3 @@ footer {
     padding: 10px;
 }
 
-
-
-/* .tlacitko { */
-	/* vzhled tlačítka */
-	display: inline-block;
-	padding: 18px 30px 14px 30px;
-	line-height: 1;
-	text-transform: uppercase;
-	text-decoration: none;
-	letter-spacing: 1px;
-	background-color: #f15f42;
-	color: white;
-	border-radius: 6px;
-	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
-}
-
-.tlacitko:hover,
-.tlacitko:active,
-.tlacitko:focus {
-	/* změna barvy pozadí při najetí myší nad tlačítko */
-	background-color: #d54c31;
-}
