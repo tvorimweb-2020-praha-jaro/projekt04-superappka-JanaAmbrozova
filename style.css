@@ -35,19 +35,20 @@ ul {
 .menu li {
     display: inline-block;
     font-size: 1rem;
-    padding: 15px 0px 15px 50px;
-    cursor: pointer; 
+    padding: 20px;
+    cursor: pointer;
 }
 .menu li:hover,
 .menu li:active,
 .menu li:focus {
 	font-weight: 700;
     color: white;
-    background-color: #25133d;
+    background-color: #48418e;
 }
 .Appka {
     text-transform: uppercase;
     font-weight: 700;
+    margin-left:30px;
 }
 .vizual {
     position: relative;
@@ -69,7 +70,7 @@ ul {
 .odkazy a {
     display: inline-block;
     border: solid;
-    border-width: 0.2rem;
+    border-width: 0.1rem;
     border-radius: 10px;
     padding:20px; 
     margin: 40px 30px 0px 0px;  
@@ -85,37 +86,39 @@ ul {
 .odkazy a:focus {
 	font-weight: 700;
     color: white;
-    background-color: #25133d;
+    background-color: #48418e;
 }
 .tlacitkozdarma {
-    background-color:#25133d;
+    background-color:#48418e;
 }
 .tlacitkoinformace:{
     background-color: #48418e;
 }
 .telefon {
-    display: block;
     position: absolute; 
     right: 0;
-    bottom: -7px;
+    bottom: 0;
+}
+.obrazek-telefonu {
+    display: block;
 }
 .informace {
     display: flex;
     padding: 30px;
-    text-align: center;
-    color:#25133d;
-   
+    text-align: center;    
 }
 h2 {
     font-size: 1.1rem;
     font-weight: 700;
+    color:#48418e;
 }
 .popis {
     font-size: 1rem;
     padding: 0px 20px 20px 10px;
+    color:#25133d;
 }
 footer {
-    background-color:#25133d;
+    background-color:#48418e;
     color: white;
     text-align: center;
     font-size: 0.8rem;
